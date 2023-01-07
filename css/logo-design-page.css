@@ -1,0 +1,379 @@
+body{ /* start body set background design*/
+	background-color: rgb(240, 236, 223); /* start body background color*/
+	margin: 0px; /* set body margin*/
+	/*background-image: url(../img/starbackground.png); /* body background image*/
+	background-size: cover; /* body background image cover whole webpage*/
+
+}
+
+
+header{ /* position header and nav bar */ 
+	position: absolute; /* position kept absolute*/
+	top: 0; /* zero margin top left right  */
+	left: 0;
+	right: 0;
+	z-index: -1; /* z index to place header behind tab*/
+}
+
+a:link{ /*hover feature for tabs*/
+	color:white; /* link color white*/
+	text-decoration: none; /* no underline*/
+}
+
+a:visited{
+	color:white; /* link color white*/
+	text-decoration: none; /* no underline*/
+}
+
+a:hover{
+	color:rgb(55, 132, 254); /* link color bright blue*/
+}
+
+a:active{
+	color:rgb(55, 132, 254); /* link color white*/
+}
+
+
+nav{ /* create nav bar as well as words and position*/
+	width: 100%;  /* set width of navigation*/
+	margin: 1% 1%;  /*  set margins for nav*/
+	padding: 10px; /* padding for navigation bar*/
+	box-sizing: border-box; /* padding does not add to original box size */
+	text-align:  left; /* align words to left of webpage*/
+}
+
+nav ul{ /* create nav bar as well as words and position*/
+	width:  100%; /* list size*/ 
+	list-style-type: none; /* no bullet points*/
+	margin: 0px 50px; /* margin for nav list */
+	padding: 10px; /* padding */
+}
+
+
+nav ul li{ /* create nav bar as well as words and position*/
+	display: inline-block; /*place nav in horizontal line*/
+	font-family: 'made_waffle_softextrabold'; /*set font for nav*/
+	font-size: 2.1em; /* set font size*/
+	margin-right: 2%; /*margin within box*/
+	margin-left: 2%; /*margin within box*/
+	padding: 1%; /* padding for each item */
+	border-radius: 15px; /* curve edges of each nav item */
+}
+
+.liprimary{ /* create primary and secondary color for nav words*/
+	background-color: rgb(162,183,222);
+}
+
+.lisecondary{ /* create primary and secondary color for nav words*/
+	background-color: rgb(255,132,95);
+}
+
+
+#container{ /* create a container for blue border*/
+	
+	width: 100%; /*set container width*/
+	max-width:94%; /*the maximum width container grows to*/
+	height: 85%; /*set container height*/
+	margin:93px 50px; /*set container margins*/
+	background-color:rgb(162,183,222); /*set container*/
+	padding:20px; /*set padding*/
+	box-sizing:border-box; /*padding does not add to initial box size*/
+	border-radius: 10px; /* change corners for navigation from  */
+	
+	display:flex; /* display using flexboxes */
+	flex-wrap:wrap; /* contain within container and start next line immeadiately*/
+	flex-direction:row; /* flex direction into rows */
+	align-content:flex-start; /* begin flex from start of line*/
+	align-items:stretch; /* stretch box to end longest box */
+	
+}
+
+
+
+
+
+#container1{ /* container to fit into larger tab container */
+	width:100%; 
+	max-width:1400px; 
+	height: 80%;
+	margin:30px auto;
+	background-color:rgb(255,255,255);
+	padding:0px;
+	box-sizing:border-box;
+	border-radius: 10px;
+
+
+	display:flex;
+	flex-wrap:wrap; 
+	flex-direction:row; 
+	align-content:flex-start; 
+	align-items:stretch; 
+
+
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'roots_n_branchesregular';
+    src: url('../fonts/main/roots_n_branches-webfont.eot');
+    src: url('../fonts/main/roots_n_branches-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/main/roots_n_branches-webfont.woff2') format('woff2'),
+         url('../fonts/main/roots_n_branches-webfont.woff') format('woff'),
+         url('../fonts/main/roots_n_branches-webfont.ttf') format('truetype'),
+         url('../fonts/main/roots_n_branches-webfont.svg#roots_n_branchesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bree_serifregular';
+    src: url('../fonts/body/breeserif-regular-webfont.eot');
+    src: url('../fonts/body/breeserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/body/breeserif-regular-webfont.woff2') format('woff2'),
+         url('../fonts/body/breeserif-regular-webfont.woff') format('woff'),
+         url('../fonts/body/breeserif-regular-webfont.ttf') format('truetype'),
+         url('../fonts/body/breeserif-regular-webfont.svg#bree_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'made_waffle_softextrabold';
+    src: url('../fonts/waffle-soft/made_waffle_soft_personal_use-webfont.eot');
+    src: url('../fonts/waffle-soft/made_waffle_soft_personal_use-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/waffle-soft/made_waffle_soft_personal_use-webfont.woff2') format('woff2'),
+         url('../fonts/waffle-soft/made_waffle_soft_personal_use-webfont.woff') format('woff'),
+         url('../fonts/waffle-soft/made_waffle_soft_personal_use-webfont.ttf') format('truetype'),
+         url('../fonts/waffle-soft/made_waffle_soft_personal_use-webfont.svg#made_waffle_softextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+article{ /* begin article */
+	width:100%; /* set width for article */
+	height: 50%; /* set height fo article */
+	background color: rgb(240, 236, 223); /* set background color to tan*/
+	margin: 30px auto; /* set margin for text*/
+	padding: 10px ; /* set padding */
+	box-sizing: border-box; /* padding not added to initial size of box*/
+
+	display: flex; /* display as a flexbox */
+	flex-wrap:wrap; /* boxes begin new row immeadiately*/
+	flex-direction:row; /* flex direction in rows */
+	align-content:flex-start; 
+	align-items:stretch;
+
+}
+
+section{
+	font-family: bree_serifregular; /* set section font*/
+	color: rgb(0,0,0); /* set color of font*/
+
+
+}
+
+.secondlink a:link{ /*hover feature for tabs*/
+	color:black; /* link color white*/
+		text-decoration: none; /* no underline*/
+	}
+	
+.secondlink:hover{
+		color:rgb(55, 132, 254); /* link color bright blue*/
+	}
+
+.secondlink:visited{
+		color:black !important; /* link color bright blue*/
+	}
+
+
+.secondlink:active{
+		color:rgb(55, 132, 254); /* link color white*/
+	}
+
+
+
+.blankhalfwidth{
+
+	margin:2.5%; /* set margins */
+	width:45%; /* set width to half-ish*/
+	padding:2.5%; /* width padding*/
+	box-sizing:border-box; /* padding does not add to initial box*/
+	border-radius: 10px; /* round corners */
+}
+
+.halfwidth{
+	background-color:rgb(240, 236, 223); /* set background color */
+	margin:2.5%; /* set margins */
+	width:45%; /* set width to half-ish*/
+	padding:2.5%; /* width padding*/
+	box-sizing:border-box; /* padding does not add to initial box*/
+	border-radius: 10px; /* round corners */
+}
+
+.halfwidthwhite{
+	background-color:rgb(255, 255, 255);/* set background color */
+	margin:2.5%;/* set margins */
+	width:45%; /* set width to half-ish*/
+	padding:2.5%; /* width padding*/
+	box-sizing:border-box; /* padding does not add to initial box*/
+	border-radius: 10px; /* round corners */
+
+}
+
+
+.vid{
+
+	border-radius: 10px; /*round corners*/
+}
+
+.halfwidthblue{
+	background-color:rgb(162,183,222); /* set background color */
+	margin:0% 30% 0% 30%; /* set margins */
+	width:55%; /* set width to half-ish*/
+	height: 100px;
+	padding:0%; /* width padding*/
+	box-sizing:border-box; /* padding does not add to initial box*/
+	border-radius: 10px; /* round corners */
+	align-self: flex-start; /* align to end of row*/
+}
+
+.wholewidthblue{
+	background-color:rgb(162,183,222); /* set background color */
+	margin:7.5%; /* set margins */
+	width:85%; /* set width to half-ish*/
+	padding:7.5%; /* width padding*/
+	box-sizing:border-box; /* padding does not add to initial box*/
+	border-radius: 10px; /* round corners */
+	align-self: flex-start; /* align to end of row*/
+}
+
+.wholewidth{ /* set background color */
+	background-color:rgb(240, 236, 223);
+	margin:7.5%; /* set margins */
+	width:85%; /* set width to whole*/
+	padding:7.5%; /* width padding*/
+	box-sizing:border-box; /* padding does not add to initial box*/
+	border-radius: 10px; /* round corners */
+
+
+}
+
+.wrapper{ /* create wrapper for animation*/
+	position: relative;  /* relative position */ 
+	width: 555px; /* width of animation */
+	height: 130px;  /* height of animation */
+	max-width: 100%; /* max-width of animation */
+	overflow: hidden; /* hide overflow of image*/
+
+}
+
+.headeranim{ /* create animation*/
+	position: relative; /* set position to absolute*/
+	padding: 0px; /* set animation padding to 0 */
+	margin: 4%; /* set animation margin*/
+	top: 5%; /*position animation */ 
+	left: 25%;  /*position animation */
+
+	animation-name: header_anim; /* set animation name*/
+	animation-duration: 3s; /* set animation duration*/
+	animation-iteration-count: 1; /* set animation iteration*/
+	animation-fill-mode: both; /* animation fill mode */
+	animation-timing-function: none; /* no timing-function*/
+}
+
+.title{
+	margin-top: 4%;
+    margin-bottom: 1%;
+	text-align:center; 
+	font-family: 'roots_n_branchesregular';
+	font-size: 80px; 
+	color: white;
+}
+
+.blankwholewidth{ /* set background color */
+	margin: 0% 7.5%; /* set margins */
+	width:85%; /* set width to whole*/
+	padding:7.5%; /* width padding*/
+	box-sizing:border-box; /* padding does not add to initial box*/
+	border-radius: 10px; /* round corners */
+
+
+}
+
+.blankthird{
+
+	margin: 2.5% 2.5%;/* set margins */
+	width:28%; /* set width to half-ish*/
+	padding:1%; /* width padding*/
+	box-sizing:border-box; /* padding does not add to initial box*/
+	border-radius: 10px; /* round corners */
+	height: 500px;
+
+}
+
+.blankhalfwidth{
+ 
+	margin:2.5%; /* set margins */
+	width:45%; /* set width to half-ish*/
+	padding:2.5%; /* width padding*/
+	box-sizing:border-box; /* padding does not add to initial box*/
+	border-radius: 10px; /* round corners */
+}
+
+
+
+.center{
+	text-align: center;
+	align-items: center;
+}
+
+@keyframes header_anim{ /* set keyframes for animation*/
+		from{
+		opacity:0; /*starting opacity*/
+	}
+
+	to{
+		opacity:1;  /*ending opacity*/
+	}
+}
+
+
+/*start media queries for an iphone*/
+@media all and (min-width:480px) and (max-width:900px){
+
+	.halfwidth{
+		width: 96%;
+		margin: .75em 2%;
+	}
+
+
+}
+@media all and (max-width: 950px){
+	.halfwidth{
+		width: 96%;
+		margin: .75em 2%;
+	}
+
+	.halfwidthwhite{
+		width: 96%;
+		margin: .75em 2%;
+	}
+
+}
+
+.title{
+	margin-top: 1%;
+    margin-bottom: 3%;
+	text-align: center; 
+	font-family: 'made_waffle_softextrabold';
+	font-size: 60px; 
+	color: white;
+}
