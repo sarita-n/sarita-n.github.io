@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		Basic Information
+	</title>
+	<link href="css/mitosis__basicinfo.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+	
+		<h1> Basic Information </h1>
+		
+		<div id="container">
+			<section class="halfwidth half-row">
+
+			First some initial information about cells... <br>
+
+				<ul>
+					<li>Each Cell has a nucleus that contains DNA</li> 
+					<li>This DNA is organized into
+							 <select id="question1">
+							 	<option selected value="0">______________________________________</option>
+							 	<option value="1">23 pairs of 2 chromosomes (46 chromosomes)</option>
+							 	<option value="2">23 pairs of 4 chromosomes (92 chromosomes)</option>
+							 	<option value="3">23 pairs of 1 chromosomes (23 chromosomes)</option>
+							 </select>
+					</li>
+					
+					<li> These pairs of homologous chromosomes are called
+							<select id="question2">
+							<option selected value="0">________</option>
+							<option value="1">haploid</option>
+							<option value="2">diploid</option>
+							</select>
+					</li>
+				</ul>
+				<input type="button" value ="SUBMIT" onClick="pagecheck()">
+		</section>
+
+		<section class ="halfwidth1 wordspacing half-row ">
+
+			<abbr title="Centrosome - composed of one centriole or two centrioles once the first one has been duplicated, the centrosome helps organize the microtubules later on in mitosis">Centrosome</abbr>
+
+			<abbr title="Chromatin - chromosomes containing DNA are completely unwound and in their chromatin form">Chromatin</abbr> 
+
+			
+			<img src="img/basicinfo.gif" alt="basic cell diagram">
+
+			<abbr title="Cell Membrane - A semipermiable protective layer which surrounds the cell"> cell</abbr> 
+
+			<abbr title=" Nucleus- Located at the center of the cell it contains most of the cell's genetic information (DNA)">nucleus</abbr>
+
+			 <abbr title="Cell Membrane - A semipermiable protective layer which surrounds the cell"> membrane</abbr>
+		</section>
+	
+	<!-- <div class="modaloverlay">
+	<div class="modaloverlay2" display="block">
+				<button> 
+					<a href="mitosis_start.html">
+					<img src="img/ohno.png"></button>
+
+		</div> -->
+
+
+
+	<script src="js/mitosis_basicinfo.js"></script>
+	</div>
+
+</body>
+</html>

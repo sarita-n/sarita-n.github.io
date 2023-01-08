@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		Cytokinesis
+	</title>
+	<link href="css/mitosis_cytokinesis.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+	
+		<h1> Cytokinesis </h1>
+		
+		<div id=container>
+			<section class="halfwidth half-row">
+				<ul>
+					<li> Here the cell finally 
+							 <select id="question1">
+							 	<option selected value="0">_________________________________</option>
+							 	<option value="1">reenters the cell cycle as a single cell.</option>
+							 	<option value="2">divides into two daughter cells.</option>
+							 </select>
+					</li>
+					
+					<li> These cells are now ready to enter interphase, go through the stages of mitosis, and
+							<select id="question2">
+							<option selected value="0">____________________________</option>
+							<option value="1"> further divide into new cells.</option>
+							<option value="2"> stay the same.</option>
+							</select>
+							
+					</li>
+
+				
+
+				</ul>
+				<input type="button" value ="SUBMIT" onClick="pagecheck()">
+		</section>
+
+		<section class="halfwidth half-row">
+			<div class ="word-spacing">
+			centrosome chromatin
+			</div>
+			<img src="img/cytokinesis.gif" alt="Cytokinesis diagram">
+		</section>
+	</div>
+
+	<script src="js/mitosis_cytokinesis.js"></script>
+
+</body>
+</html>
