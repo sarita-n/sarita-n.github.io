@@ -227,8 +227,8 @@ font-family: bree_serifregular; /* set section font*/
 }
 
 
-.secondlink a:link{ /*hover feature for tabs*/
-	color:black; /* link color white*/
+.secondlink:link{ /*hover feature for tabs*/
+		color:black; /* link color white*/
 		text-decoration: none; /* no underline*/
 	}
 	
@@ -293,7 +293,7 @@ img{
 		opacity:1;  /*ending opacity*/
 	}
 }
-}
+
 
 /*start media queries for an iphone*/
 @media all and (min-width:480px) and (max-width:750px){

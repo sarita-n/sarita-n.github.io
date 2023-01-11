@@ -180,7 +180,7 @@ section{
 
 }
 
-.secondlink a:link{ /*hover feature for tabs*/
+.secondlink:link{ /*hover feature for tabs*/
 	color:black; /* link color white*/
 		text-decoration: none; /* no underline*/
 	}

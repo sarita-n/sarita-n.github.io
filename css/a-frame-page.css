@@ -115,7 +115,7 @@ nav ul li{ /* create nav bar as well as words and position*/
 
 
 
-.secondlink a:link{ /*hover feature for tabs*/
+.secondlink:link{ /*hover feature for tabs*/
 	color:black; /* link color white*/
 		text-decoration: none; /* no underline*/
 	}

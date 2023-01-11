@@ -235,18 +235,20 @@ section{
 	border-radius: 10px; /* round corners */
 
 }
-.secondlink a:link{ /*hover feature for tabs*/
+.secondlink:link{ /*hover feature for tabs*/
 	color:black; /* link color white*/
 		text-decoration: none; /* no underline*/
+	}
+
+.secondlink:visited{
+		color:black ; /* link color bright blue*/
 	}
 	
 .secondlink:hover{
 		color:rgb(55, 132, 254); /* link color bright blue*/
 	}
 
-.secondlink:visited{
-		color:black !important; /* link color bright blue*/
-	}
+
 
 .vid{
 
